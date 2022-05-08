@@ -1,1 +1,13 @@
-# perfectsquare-in-dict
+n= int(input('how many keys:'))
+d={}
+i=1
+k=int(input())
+while(i*i<=k):
+    if((k%i==0) and (n/i==0)):
+       v='yes'
+       d[k]=v
+    else:
+       v='no'
+       d[k]=v
+    i=i+1
+print(d)
